@@ -1,0 +1,40 @@
+/* Updated popup styles */
+.leaflet-popup-content-wrapper {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.leaflet-popup-content {
+    margin: 8px 10px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.contact-popup {
+    font-family: Arial, sans-serif;
+}
+
+.popup-row {
+    margin-bottom: 6px;
+}
+
+.popup-row:last-child {
+    margin-bottom: 0;
+}
+
+.popup-row.description {
+    margin-top: 8px;
+    white-space: pre-line;
+    word-wrap: break-word;
+}
+
+.popup-row strong {
+    color: #444;
+}
+
+.leaflet-popup-tip {
+    background-color: white;
+}

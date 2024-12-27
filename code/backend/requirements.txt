@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pytesseract
+pillow
+transformers
+sqlite3
+websockets

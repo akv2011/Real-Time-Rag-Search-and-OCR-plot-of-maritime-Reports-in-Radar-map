@@ -1,0 +1,27 @@
+/* Leaflet CSS basics - for map display and controls */
+.leaflet-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.leaflet-popup {
+    position: absolute;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.leaflet-control {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.leaflet-marker-icon {
+    width: 25px;
+    height: 41px;
+}
